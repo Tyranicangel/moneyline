@@ -1,0 +1,697 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+}
+p
+{
+	margin: 1px;
+}
+@font-face {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 300;
+	src: local('Open Sans Light'), local('OpenSans-Light'), url(../images/open_sans.woff) format('woff');
+}
+@font-face {
+	font-family: 'Iceland';
+	font-style: normal;
+	font-weight: 400;
+	src: local('Iceland'), local('Iceland-Regular'), url(../images/Iceland.woff) format('woff');
+}
+.main_div
+{
+	width: 900px;
+	margin: auto;
+}
+.lg_main_dv
+{
+	float: left;
+}
+.header_dv
+{
+	float: left;
+	width: 900px;
+}
+.control-group
+{
+	float: left;
+	width: 900px;
+}
+.control-label
+{
+	float: left;
+	width: 130px;
+}
+.navbar
+{
+	float: left;
+	width: 720px;
+}
+.logo_dv
+{
+	float: left;
+	width: 900px;
+	margin-top:10px;
+}
+.logo_img_tg
+{
+	width: 300px;
+}
+.thumbnails_extra
+{
+	float: left;
+	margin-right:10px;
+}
+.vendor_desc
+{
+	background: #fcf8e3;
+	float: right;
+	width: 200px;
+	font-family: open sans;
+	margin:20px 20px 0px 0px;
+	font-size: 12px;
+	padding:10px;
+	border:1px dashed #bababa;
+}
+.prof_cls
+{
+	float: right;
+	font-size: 10px;
+	color: #474646;
+	cursor: pointer;
+	height: 15px;
+}
+.prof_cls:hover
+{
+	text-decoration: underline;
+}
+.gen_url_btn
+{
+	margin-left:10px;
+	margin-bottom: 10px;
+}
+.del_btn
+{
+	margin-bottom: 10px;
+}
+.thum_icns_cls
+{
+	margin-left: 10px;
+	cursor: pointer;
+}
+.thum_icns_cls:hover
+{
+	opacity: 0.7;
+}
+.ttl_cust_dv
+{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	text-align: left;
+	padding-left: 10px;
+	width: 200px;
+}
+.snd_mlr_btn
+{
+	float: left;
+}
+.lightbox
+{
+	width: 100%;
+	z-index: 100;
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	height: 100%;
+	top:0px;
+	left: 0px;
+	display: none;
+}
+.gen_url_lightbox_panel
+{
+	float: left;
+	width: 380px;
+	padding: 10px;
+	border-radius: 10px;
+	background: white;
+	z-index: 102;
+	position: absolute;
+	top:100px;
+	margin-bottom: 30px;
+	display: none;
+}
+.gen_edit_lightbox_panel
+{
+	float: left;
+	width: 380px;
+	padding: 10px;
+	border-radius: 10px;
+	background: white;
+	z-index: 102;
+	position: absolute;
+	top:100px;
+	margin-bottom: 30px;
+	display: none;
+}
+.gen_mult_url_lightbox_panel
+{
+	float: left;
+	width: 380px;
+	padding: 10px;
+	border-radius: 10px;
+	background: white;
+	z-index: 102;
+	position: absolute;
+	top:100px;
+	margin-bottom: 30px;
+	display: none;
+}
+.gen_mul_url_next_lightbox_panel
+{
+	float: left;
+	width: 380px;
+	padding: 10px;
+	border-radius: 10px;
+	background: white;
+	z-index: 102;
+	position: absolute;
+	top:100px;
+	margin-bottom: 30px;
+	display: none;
+}
+.lght_panel_outdv
+{
+	margin:auto;
+	width:400px;
+}
+.gen_url_txt
+{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #bababa;
+}
+.model_img_tg_gen_url
+{
+	width: 200px;
+	padding-top: 20px;
+}
+.genurl_pic_dv
+{
+	width: 400px;
+	float: left;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.gen_url_ul
+{
+	list-style: none;
+}
+.gen_url_ul li 
+{
+	margin-bottom: 10px;
+}
+.cost_txt
+{
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 10px;
+	width: 90px;
+}
+.whats_this_spn
+{
+	font-size: 11px;
+	color: blue;
+}
+.whats_this_spn:hover
+{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.lght_box_gen_url_close_btn
+{
+	float: right;
+	cursor: pointer;
+}
+.lght_box_edit_close_btn
+{
+	float: right;
+	cursor: pointer;
+}
+.lght_box_gen__mul_url_close_btn
+{
+	float: right;
+	cursor: pointer;
+}
+.lght_box_mul_url_next_close_btn
+{
+	float: right;
+	cursor: pointer;
+}
+.pay_summ_div
+{
+	float: left;
+	width:300px;
+	font-size: 12px;
+	margin-bottom: 10px;
+	padding: 10px;
+	padding-bottom: 0px;
+}
+.pay_summ_ul
+{
+	float: left;
+	list-style: none;
+}
+
+.bal_cls_li
+{
+	padding-top: 10px;
+	border-top: 1px dashed #bababa;
+}
+.paysummdisc_cls
+{
+	float: left;
+	width: 290px;
+	margin-left: 20px;
+}
+.footer
+{
+	float: left;
+	width: 900px;
+	font-size: 11px;
+	padding-bottom: 40px;
+	margin-top:20px;
+}
+.content
+{
+	float: left;
+	min-height: 400px;
+	width: 900px;
+}
+.ftr_left
+{
+	float: left;
+}
+.footer_info{
+	float:right;
+	padding-right:55px;
+}
+.logo_dv_pixel
+{
+	float: left;
+	width: 150px;
+	border:1px dashed #bababa;
+}
+.pix_logo_img_dv
+{
+	float: left;
+	width: 150px;
+	text-align: center;
+}
+.eff_web_txt
+{
+	margin:0px;
+	padding: 0px;
+	text-align: center;
+	font-size:10px;
+	font-family:open sans;
+	border-top:1px dashed #bababa;
+	padding:5px 0px ;
+	float: left;
+	width: 150px;
+}
+.contact
+{
+	float: left;
+	width:200px;
+	margin: 40px 20px;
+}
+.ex_cls_drp_dwn
+{
+	margin-top: 7px;
+	margin-right: 20px;
+	float: right;
+}
+.pag_ex_cls
+{
+	float:right;
+	margin-bottom: 10px;
+	margin-top: 48px;
+}
+.login_form
+{
+	float: right;
+	width: 300px;
+	padding:10px;
+	background: #f4f4f4;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	margin-right: 20px;
+}
+.address
+{
+	font-family: open sans;
+	float: right;
+	width: 200px;
+	margin-right:20px;
+	margin-top: 30px;
+	font-size: 12px;
+}
+.index_img
+{
+	float: left;
+	margin-bottom: 10px;
+}
+.pay_icon
+{
+	float: left;
+}
+.steps
+{
+	float: left;
+	width: 880px;
+	background: #6caddf;
+	padding:10px;
+	color: white;
+	font-family: open sans;
+}
+.ech_step
+{
+	float: left;
+	margin-left:20px;
+}
+.step_num
+{
+	float: left;
+	width: 20px;
+	height: 20px;
+	border-radius: 10px;
+	border:1px solid white;
+	text-align: center;
+}
+.step_desc
+{
+	float: left;
+	margin-left: 10px;
+}
+.slider_div
+{
+	background: #f4f4f4;
+	float: left;
+	width: 80px;
+	height: 238px;
+}
+.slider_img
+{
+	float: left;
+}
+.exa_cls_icn
+{
+	padding-top: 107px;
+	margin-left: 30px;
+}
+.imgbox {
+
+	width:370px;
+	float:left;
+	text-align: center;
+}
+.reg_left_div
+{
+	float: left;
+	width: 360px;
+	margin-left: 20px;
+}
+.reg_p
+{
+	padding-bottom: 5px;
+	border-bottom: 1px solid #bababa;
+}
+.reg_ul
+{
+	list-style: none;
+	margin-left: 0px;
+	margin-top:15px;
+}
+.reg_ul li 
+{
+	margin-bottom: 5px;
+}
+.reg_des
+{
+	float: left;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+}
+.reg_right_dv
+{
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	width:400px;
+}
+.reg_img
+{
+	float: left;
+}
+.reg_link
+{
+	text-decoration: underline;
+	color: white;
+}
+.reg_ol
+{
+	float: left;
+	font-family: open sans;
+	font-size: 13px;
+	margin-top: 10px;
+}
+.reg_steps_p
+{
+	float: left;
+	margin-top: 20px;
+}
+.ind_bsn_cls
+{
+	float: left;
+	width:200px;
+	padding:10px;
+	border:1px solid #bababa;
+	border-radius:10px;
+	margin-top:20px;
+	margin-left:20px;
+}
+.ind_img
+{
+	float: left;
+}
+.ind_p
+{
+	float: left;
+	width: 200px;
+	margin-top: 10px;
+	font-size: 13px;
+	font-family: open sans;
+}
+.vendor_add
+{
+	float: left;
+	margin-top:20px;
+	width:200px;
+	font-size: 13px;
+	font-family: open sans;
+}
+.pictures_div
+{
+	float: left;
+	width: 300px;
+}
+.pic_nav_cls
+{
+	background: #f4f4f4;
+	float: left;
+	width: 40px;
+	height: 152px;
+}
+.ex_cls_rght
+{
+	margin:65px 10px;
+}
+.imgs_link
+{
+	float: left;
+	width: 200px;
+	border:1px solid #bababa;
+	text-align: center;
+}
+.noofpics
+{
+	float: left;
+	width:250px;
+	margin-top: 10px;
+}
+.content_left
+{
+	float: left;
+	width:300px;
+	margin-right: 20px;
+}
+.left_cont_ul
+{
+	margin-left: 0px;
+	float: left;
+	list-style: none;
+	padding-top: 10px;
+	margin-top:10px;
+	border-top: 1px dashed #bababa;
+}
+.left_cont_ul li 
+{
+	margin-bottom: 10px;
+}
+.content_right
+{
+	float: left;
+	width:340px;
+}
+.pay_summ
+{
+	float: left;
+	width:300px;
+	padding:10px 20px;
+	background: #fcf8e3;
+}
+.pay_sum_p
+{
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #bababa;
+}
+.pay_summ_ul
+{
+	margin:0px;
+	margin-top: 10px;
+	list-style: none;
+}
+.cust_dets_div
+{
+	float: left;
+	width: 300px;
+	padding: 20px;
+	background: #f4f4f4;
+	margin-top: 10px;
+}
+.cust_det_ul
+{
+	margin:0px;
+	margin-top: 10px;
+	list-style: none;
+}
+.pls_fill_p
+{
+	font-size: 13px;
+	font-family: open sans;
+}
+.cust_span
+{
+	float: left;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 13px;
+	margin:0px;
+}
+.content_instr
+{
+	float: left;
+	margin-left: 20px;
+	width:200px;
+}
+.content_inst_ol
+{
+	font-size: 12px;
+	font-family: open sans;
+	font-weight: bold;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.menyline_lg
+{
+	float: left;
+	padding:10px;
+}
+.lock_dv
+{
+	float: right;
+	margin-top:20px;
+}
+.lck_img
+{
+	float: left;
+}
+.lock_txt
+{
+	float: left;
+	font-family: open sans;
+	font-size: 12px;
+	width:250px;
+	margin-top:10px;
+	margin-left: 10px;
+}
+.payment_icon
+{
+	float: left;
+	margin-top: 30px;
+	margin-left: 35px;
+}
+.pay_succ
+{
+	float: left;
+	width:900px;
+	text-align: center;
+}
+.usr_pro_ul
+{
+	margin:0px;
+	margin-top: 10px;
+	list-style: none;
+}
+.usr_pro_ul li 
+{
+	margin-bottom: 10px;
+}
+.usr_prof_p
+{
+	float: left;
+	width:300px;
+	border-bottom: 1px solid #bababa;
+	padding-bottom: 10px;
+}
+.cont_lft_usr_prof
+{
+	float: left;
+	width: 360px;
+}
+.crt_mult
+{
+	float: left;
+	width: 300px;
+}
+.cont_top_dv
+{
+	float: left;
+	width: 688px;
+}
+.sel_stuff_p
+{
+	float: left;
+	width: 500px;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.gen_mul_dv_table
+{
+	float: left;
+	max-height: 400px;
+	overflow-y:scroll;
+}
